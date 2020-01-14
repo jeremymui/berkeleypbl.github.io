@@ -186,7 +186,7 @@ body main {
   bottom: 0;
   transform: translate3d(0, 100%, 0);
   transition: all 0.3s ease;
-  background-color: #63b4ff;
+  background-color: #343a40;
   /* margin: 0px 15px 0 15px; */
 }
 
@@ -199,7 +199,7 @@ body main {
   bottom: 100%;
   left: 0;
   right: 0;
-  background-color: #63b4ff;
+  background-color: #343a40;
   overflow: visible;
 }
 
