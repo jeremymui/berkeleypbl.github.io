@@ -6,6 +6,10 @@
   background-repeat: no-repeat;
 }
 
+body {
+  position: relative;
+}
+
 .index-header {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
@@ -20,7 +24,7 @@
 }
 
 .header-spacer {
-  height: 90px;
+  height: 65px;
 }
 
 .header-content {
@@ -30,7 +34,8 @@
 
 .index-header-content {
   width: 100%;
-  height: calc(100vh - 90px);
+  height: calc(100vh - 65px - 3rem);
+  /* full height - header height - chevron size - 1rem buffer */
 }
 
 .footer-icon-link {
@@ -41,7 +46,7 @@
   transition: background-color 0.5s;
 }
 
-@media (max-width: 575px) {
+@media (max-width: 575.98px) {
   nav.navbar {
     background: #343a40;
   }
@@ -90,10 +95,15 @@
 .bio-img {
   max-width: 150px;
 }
-.bio-linkedin {
-  line-height: 1;
+
+@media (max-width: 575px) {
+  .bio-img {
+    max-width: 75px;
+  }
 }
-.subheading td {
+
+.bio-linkedin {
+  line-height: 1.2;
   font-size: 1.25em;
 }
 
@@ -110,6 +120,91 @@ h1.display-4 {
   height: 60px;
   text-align: center;
 }
+
 .recruitment-event {
   background-color: #818d99;
+}
+
+@media (max-width: 575px) {
+  #title {
+    font-size: 3.75rem;
+  }
+}
+
+body main {
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+
+.committee {
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+
+#spy ul li a.nav-link.active, #spy ul li a.nav-link.active:hover {
+  font-weight: bold;
+  border-left: 3px solid;
+  padding-left: 7px;
+}
+
+#spy ul li a.nav-link:hover {
+  border-left: 2px solid;
+  padding-left: 8px;
+}
+
+#spy ul li a.nav-link {
+  color: inherit;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  padding-left: 10px;
+  font-size: 0.9rem;
+}
+
+#spy {
+  top: 130px;
+}
+
+.bio-card {
+  box-shadow: 5px 10px 4px #888888;
+  perspective: 1000px;
+  overflow: hidden;
+  transform-style: preserve-3d;
+}
+
+.bio-rect-img {
+  /* padding: 15px 15px 0px 15px; */
+}
+
+.invert-img {
+  filter: invert(100%);
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform: translate3d(0, 100%, 0);
+  transition: all 0.3s ease;
+  background-color: #63b4ff;
+  /* margin: 0px 15px 0 15px; */
+}
+
+.caption:hover {
+  transform: translate3d(0, 0, 0);
+}
+
+.bio-visible {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #63b4ff;
+  overflow: visible;
+}
+
+.bio-hidden {
+  /* display: none; */
+  /* visibility: hidden; */
+  overflow: hidden;
 }

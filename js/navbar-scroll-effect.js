@@ -2,9 +2,9 @@
 
 function controlNavbarColor() {
   if (5 * $(window).scrollTop() > $(window).height()) {
-    $('nav').addClass('bg-dark');
+    $('header nav').addClass('bg-dark');
   } else {
-    $('nav').removeClass('bg-dark');
+    $('header nav').removeClass('bg-dark');
   }
 }
 
@@ -14,4 +14,10 @@ $(window).on("scroll", function() {
 
 $(document).ready(function() {
   controlNavbarColor();
+})
+
+$("header nav .navbar-collapse a.dropdown-item").click(function() {
+  if (window.matchMedia("(max-width: 991.98px)").matches) {
+    $('.navbar-toggler').click();
+  }
 })
