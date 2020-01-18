@@ -37,7 +37,7 @@ body {
 .in-background {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
-    url("../img/DSC0712.jpg");
+    url("../img/IMG_0421.jpg");
   background-position: center;
 }
 
@@ -51,16 +51,15 @@ body {
 .ex-background {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
-    url("../img/DSC_8654.jpg");
-  /* background-position: center 35%; */
-  background-position: center 53%;
+    url("../img/city.jpg");
+  background-position: center 35%;
 }
 
 .careers-background {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
-    url("../img/ForFB.jpg");
-  background-position: center 45%;
+    url("../img/3.jpg");
+  background-position: center 80%;
 }
 
 .apply-background {
