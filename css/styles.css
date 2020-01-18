@@ -239,6 +239,7 @@ body main {
   right: 0;
   background-color: var(--dark);
   overflow: visible;
+  user-select: none;
 }
 
 .bio-hidden {
