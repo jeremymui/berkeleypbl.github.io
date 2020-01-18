@@ -37,7 +37,7 @@ body {
 .in-background {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
-    url("../img/IMG_0421.jpg");
+    url("../img/DSC0712.jpg");
   background-position: center;
 }
 
@@ -51,8 +51,8 @@ body {
 .ex-background {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
-    url("../img/city.jpg");
-  background-position: center 35%;
+    url("../img/IMG_0479.jpg");
+  background-position: center 48%;
 }
 
 .careers-background {
