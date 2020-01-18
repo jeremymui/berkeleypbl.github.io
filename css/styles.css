@@ -135,6 +135,7 @@ body {
 }
 
 .pillar-img {
+  width: 100%;
   max-width: 100px;
 }
 
@@ -271,6 +272,10 @@ body main {
 
 .timeline {
   position: relative;
+}
+
+#timeline {
+  padding-top: 65px;
 }
 
 @media (min-width: 576px) {
