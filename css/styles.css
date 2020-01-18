@@ -37,7 +37,7 @@ body {
 .in-background {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
-    url("../img/_DSC0712.jpg");
+    url("../img/DSC0712.jpg");
   background-position: center;
 }
 
