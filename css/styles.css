@@ -247,6 +247,10 @@ body main {
   overflow: hidden;
 }
 
+.role {
+  color: #aaaaaa;
+}
+
 #carouselExampleControls > a.carousel-control-next {
   background: rgb(0,0,0);
   background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.3) 100%);
