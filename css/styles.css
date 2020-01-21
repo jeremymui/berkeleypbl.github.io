@@ -16,6 +16,7 @@
 
 body {
   position: relative;
+  font-family: "Segoe UI",Roboto,"Open Sans",-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
 
 .hero-header {
