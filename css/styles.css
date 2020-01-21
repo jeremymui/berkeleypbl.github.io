@@ -108,6 +108,13 @@ body {
   }
 }
 
+nav a {
+  text-transform: uppercase;
+  font-family: Roboto;
+  font-size: 0.85rem;
+  letter-spacing: 2px;
+}
+
 .full-height {
   min-height: 100vh;
 }
